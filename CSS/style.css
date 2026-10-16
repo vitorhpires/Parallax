@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-banner {
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.natureza {
+    height: 100vh;
+    background-image: url("../assets/natureza.webp");
+}
+
+.praias {
+    background-image: url("../assets/praias.webp");
+}
+
+.montanhas {
+    background-image: url("../assets/montanhas.webp");
+}
+
+.florestas {
+    background-image: url("../assets/Florestas.webp");
+}
+
+.titulo {
+    color: #ffffff;
+    border: 2px solid white;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.conteudo {
+    padding: 25px 14%;
+    background-color: white;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.conteudo p {
+    margin-bottom: 10px;
+}
+
+.icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    background-color: #333333;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .img-banner {
+        height: 45vh;
+        background-attachment: scroll;
+    }
+
+    .natureza {
+        height: 70vh;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .conteudo {
+        padding: 25px 8%;
+        font-size: 13px;
+    }
+}
