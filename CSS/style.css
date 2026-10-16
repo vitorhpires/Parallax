@@ -19,6 +19,7 @@
 }
 
 .natureza {
+    height: 100vh;
     background-image: url("../Assets/natureza.webp");
 }
 
